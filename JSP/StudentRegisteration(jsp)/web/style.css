@@ -1,0 +1,11 @@
+/*Applying this rules in the large mode*/
+
+@media(min-width:1200px) {
+    .tb{
+    
+    width:100%;
+    
+}
+}
+
+
