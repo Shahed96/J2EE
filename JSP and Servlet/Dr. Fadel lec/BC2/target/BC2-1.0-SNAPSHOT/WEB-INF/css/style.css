@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.my-st{
+   margin-top: 30px;  
+   margin-left: 2px;
+   
+       
+}
+.my-in{
+    max-width: 400px;
+    
+    
+}
+.my-tble{
+   max-width: 600px;
+   text-align: center;
+   
+}
