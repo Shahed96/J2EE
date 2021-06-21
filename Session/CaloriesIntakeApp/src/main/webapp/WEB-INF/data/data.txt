@@ -1,0 +1,4 @@
+1 Apple 242 130 Apple.jpg
+2 Avocado 30 50 Cantaloupe.jpg
+3 Banana 126 110 avocado.jpg
+4 Cantaloupe 134 134 banana.jpg   

@@ -9,32 +9,30 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ *
+ * @author DELL
+ */
+@WebServlet(urlPatterns = {"/serv3"})
+public class servlet3 extends HttpServlet {
 
-@WebServlet(urlPatterns = {"/serv1"})
-public class servlet1 extends HttpServlet {
-
-   
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
         HttpSession se =request.getSession();
         
-       se.setAttribute("name", request.getParameter("myname"));
+       se.setAttribute("address", request.getParameter("add"));
         
-        this.getServletContext().getRequestDispatcher("/2.html").forward(request, response);
-        
-        
-        
-      
+        this.getServletContext().getRequestDispatcher("/last.jsp").forward(request, response);
     }
-    
-    
-    
-    
-    
-    
-    
-    
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
