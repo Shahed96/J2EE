@@ -15,7 +15,7 @@
         <h1>Data in session</h1>
         <!--Get the session (cube) -->
         <%HttpSession ses =request.getSession(); %>
-        <h3> <%=ses.getAttribute("name")%></h3>
+        <h3> <%=ses.getAttribute("name123")%></h3>
         <h3> <%=ses.getAttribute("mail")%></h3>
         <h3> <%=ses.getAttribute("address")%></h3>
     </body>
