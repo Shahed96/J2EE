@@ -1,0 +1,7 @@
+1. Add the following two lines to sql 
+
+
+
+CREATE USER 'webstudent'@'localhost' IDENTIFIED BY 'webstudent';
+
+GRANT ALL PRIVILEGES ON * . * TO 'webstudent'@'localhost';
