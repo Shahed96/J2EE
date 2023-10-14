@@ -78,7 +78,7 @@ public class StudentServlet extends HttpServlet {
         } catch (Exception ex) {
             Logger.getLogger(StudentServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
-
+          System.out.print(request.getRemoteAddr() +""+ request.getQueryString());
     }
 
     private void listStudents(HttpServletRequest request, HttpServletResponse response) throws SQLException, ServletException, IOException {
